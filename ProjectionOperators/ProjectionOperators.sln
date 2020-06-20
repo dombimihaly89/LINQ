@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectionOperators", "ProjectionOperators\ProjectionOperators.csproj", "{1CE88B3D-5F9C-4A77-BD42-D4A6A2E3FBB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CE88B3D-5F9C-4A77-BD42-D4A6A2E3FBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE88B3D-5F9C-4A77-BD42-D4A6A2E3FBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE88B3D-5F9C-4A77-BD42-D4A6A2E3FBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE88B3D-5F9C-4A77-BD42-D4A6A2E3FBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA2A3746-8C36-40F1-9BAE-0C217C5CE43C}
+	EndGlobalSection
+EndGlobal
