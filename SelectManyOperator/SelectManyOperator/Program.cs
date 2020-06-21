@@ -25,13 +25,13 @@ namespace SelectManyOperator
                 Console.WriteLine(subject);
             }
 
-            // Disctinct with sequel like syntay:
+            // The same with sequel like syntax
             IEnumerable<string> listOfAllDisctinctSubject2 = from student in Student.GetAllStudents()
                                                              from subject in student.Subjects
                                                              select subject;
 
             Console.WriteLine("------------");
-            // The same with sequel like syntax
+            // Disctinct with sequel like syntay:
             IEnumerable<string> listOfAllSubject2 = (from student in Student.GetAllStudents()
                                                     from subject in student.Subjects
                                                     select subject).Distinct();
