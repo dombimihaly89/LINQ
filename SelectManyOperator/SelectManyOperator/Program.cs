@@ -88,6 +88,25 @@ namespace SelectManyOperator
             {
                 Console.WriteLine(ch);
             }
+
+
+            Console.WriteLine("------------");
+            // Tested SelectMany if the subject is empty then what happens. So it's not going to write out the corresponding
+            // student if it's empty. If we use DefaultIfEmpty on the subject list, then it is going to attach the student
+            // and after that the student get printed out. It's logical because SelectMany first flattens
+            // the Subjects and when it's flattened then it starts to get back the corresponding student, but
+            // if there is no subject (because the subject list was empty) then there is no correspondig student as well.
+            // That's why student doesn't get printed out without using DefaultIfEmpty. If we use DefaultIfEmpty then
+            // the empty subject list gets a null value, and now this null is corresponds to the Student
+            // that's why it gets printed out. If you want to test this, you have to make a student's subject list empty.
+            var test = Student.GetAllStudents().SelectMany(s => s.Subjects.DefaultIfEmpty(), (stud, sub) => new {
+                Stud = stud.Name,
+                Sub = sub
+            });
+            foreach(var subject in test)
+            {
+                Console.WriteLine(subject.Stud + "\t" + subject.Sub);
+            }
         }
     }
 }

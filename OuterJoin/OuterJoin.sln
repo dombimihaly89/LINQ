@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OuterJoin", "OuterJoin\OuterJoin.csproj", "{DE0A4690-BC94-4720-9B7A-B3F2CA2D88DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE0A4690-BC94-4720-9B7A-B3F2CA2D88DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0A4690-BC94-4720-9B7A-B3F2CA2D88DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0A4690-BC94-4720-9B7A-B3F2CA2D88DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0A4690-BC94-4720-9B7A-B3F2CA2D88DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34F8BF9C-138D-4161-ADBB-1A19AD59F44F}
+	EndGlobalSection
+EndGlobal
