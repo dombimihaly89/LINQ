@@ -12,7 +12,7 @@ namespace AsEnumerableAsQueryable
         {
             DataClasses1DataContext db = new DataClasses1DataContext();
 
-            // It retrieves the data from the database until AsEnumerable so it doesn't
+            // It executes queries in the database until AsEnumerable so it doesn't
             // execute the operations after the AsEnumerable() on the server side.
             // It executes the operations after that in memory. We could put
             // AsEnumerable in somewhere later position. It's a breakpoint basically.
