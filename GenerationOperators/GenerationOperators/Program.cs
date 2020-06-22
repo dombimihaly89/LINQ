@@ -34,6 +34,17 @@ namespace GenerationOperators
                 Console.WriteLine(item);
             }
 
+            int[] numbers1 = { 1, 2, 3 };
+            int[] numbers2 = { 1, 4, 5 };
+
+            // The concat method is different than the union method because when we use Union method then
+            // duplicate elements appear once in the result.
+            IEnumerable<int> concatenatedNumbers = numbers1.Concat(numbers2);
+            foreach(int num in concatenatedNumbers)
+            {
+                Console.WriteLine(num);
+            }
+
         }
 
         public static IEnumerable<int> getData()
